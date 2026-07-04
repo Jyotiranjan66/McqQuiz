@@ -1,0 +1,35 @@
+/build
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local configuration
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+
+# Captures
+captures/
+
+# Native build
+.externalNativeBuild/
+.cxx/
+
+# Log Files
+*.log
+
+# macOS
+.DS_Store
+
+# Keystore
+*.jks
+*.keystore
+
+# Kotlin
+.kotlin/
+
+# Generated
+generated/
