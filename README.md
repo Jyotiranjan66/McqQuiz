@@ -131,15 +131,10 @@ The JSON is parsed using Kotlin Serialization into a `List<Question>`.
 - Animated Option Cards
 - Animated Streak Badge
 - Animated Result Screen
+- Animated Splash Screen
 - Material 3 Components
 - Smooth Screen Transitions
 - Responsive Layout
-
----
-
-# 🚀 Future Improvements
-
-- Lottie Animations
 
 ---
 
