@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.demo.mcqquiz.domain.usecase.GetQuestionsUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.channels.Channel
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.receiveAsFlow
@@ -46,6 +47,7 @@ class SplashViewModel @Inject constructor(
                     isLoading = true
                 )
             }
+            delay(2000)
 
             val result = getQuestionsUseCase()
             result.onSuccess {

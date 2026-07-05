@@ -72,4 +72,7 @@ dependencies {
     implementation(libs.hilt.navigation.compose)
 
     implementation(libs.androidx.material.icons.extended)
+
+    // Lottie Animation
+    implementation("com.airbnb.android:lottie-compose:6.6.7")
 }
